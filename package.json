@@ -1,0 +1,33 @@
+{
+  "name": "eth-summary-of-credits",
+  "version": "1.0.0",
+  "description": "Login mechanism for myStudies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyBurger/eth-summary-of-credits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyBurger/eth-summary-of-credits/issues"
+  },
+  "homepage": "https://github.com/JonnyBurger/eth-summary-of-credits#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/lodash": "^4.14.141",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/node": "^12.7.11",
+    "@types/qs": "^6.5.3",
+    "@types/wait-promise": "^0.4.0",
+    "cheerio-without-node-native": "^1.0.0-rc.2",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.26",
+    "qs": "^6.9.0",
+    "real-isomorphic-fetch": "^3.0.0",
+    "wait-promise": "^0.4.1"
+  }
+}
