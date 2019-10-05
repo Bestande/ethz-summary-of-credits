@@ -1,14 +1,11 @@
 import fetchAll from './scraper';
 
+require('isomorphic-fetch');
+
 const example = () => {
-	return fetchAll(
-		'<username>',
-		'<password>',
-		require('node-fetch'),
-		progress => {
-			console.log('progress', progress);
-		}
-	);
+	return fetchAll('<username>', '<password>', fetch, progress => {
+		console.log('progress', progress);
+	});
 };
 
 example()

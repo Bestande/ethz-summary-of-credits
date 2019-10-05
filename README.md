@@ -21,7 +21,7 @@ The function to interact with the ETHZ server takes 4 parameters:
 
 - Shortname
 - Password
-- Fetch function, on the server pass `require('node-fetch')`, in React Native you can pass the global `fetch`
+- Fetch function, on the server first require `require('isomorphic-fetch')` then pass the global `fetch`, in React Native you can pass the global `fetch`.
 - Progress function, for example `progress => console.log(progress)`
 
 ## Example
