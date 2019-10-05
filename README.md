@@ -1,6 +1,6 @@
 # ethz-summary-of-credits
 
-> Login mechanism for myStudies
+> Protocol for interacting with MyStudies
 
 This is a library that can authenticate against the ETH Zurich myStudies platform. It is able to extract grades, courses, examination dates and more data from the myStudies platform into a JSON format.
 
@@ -24,3 +24,7 @@ Simply enter the shortname and password in `src/example.ts` and then run `npm ru
 ## See also
 
 - [uzh-summary-of-credits](https://github.com/Bestande/uzh-summary-of-credits) - The UZH version of this library
+
+## License
+
+MIT
