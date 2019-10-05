@@ -1,5 +1,5 @@
 {
-  "name": "eth-summary-of-credits",
+  "name": "ethz-summary-of-credits",
   "version": "1.0.0",
   "description": "Login mechanism for myStudies",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bestande/eth-summary-of-credits.git"
+    "url": "git+https://github.com/Bestande/ethz-summary-of-credits.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bestande/eth-summary-of-credits/issues"
+    "url": "https://github.com/Bestande/ethz-summary-of-credits/issues"
   },
-  "homepage": "https://github.com/Bestande/eth-summary-of-credits#readme",
+  "homepage": "https://github.com/Bestande/ethz-summary-of-credits#readme",
   "dependencies": {
     "@types/cheerio": "^0.22.13",
     "@types/lodash": "^4.14.141",

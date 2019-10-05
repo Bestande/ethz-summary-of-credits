@@ -4,7 +4,7 @@ const cheerio = require('cheerio-without-node-native');
 export const config = {
 	AUTH_URL: 'https://idagreen.uzh.ch/re/',
 	USER_AGENT:
-		'Mozilla WebKit/537.36 (KHTML, like Gecko) eth-summary-of-credits 1.0' // Needs to be Mozilla Webkit in order to work, but also expose that the request is from 'eth-summary-of-credits'
+		'Mozilla WebKit/537.36 (KHTML, like Gecko) ethz-summary-of-credits 1.0' // Needs to be Mozilla Webkit in order to work, but also expose that the request is from 'ethz-summary-of-credits'
 };
 
 export const makeShibbolethConsentBody = (body: string) => {
