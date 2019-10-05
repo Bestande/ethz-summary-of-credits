@@ -17,6 +17,13 @@ npx tsc
 
 to build the library. The entry point will be in `dist/scraper` the function `fetchAll`.
 
+The function to interact with the ETHZ server takes 4 parameters:
+
+- Shortname
+- Password
+- Fetch function, on the server pass `require('node-fetch')`, in React Native you can pass the global `fetch`
+- Progress function, for example `progress => console.log(progress)`
+
 ## Example
 There is an example included which allows you to enter your shortname and password and which will return the JSON response for your account.
 Simply enter the shortname and password in `src/example.ts` and then run `npm run example`.
