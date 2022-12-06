@@ -31,7 +31,7 @@
     "lodash": "^4.17.19",
     "moment-timezone": "^0.5.26",
     "node-fetch": "^2.6.1",
-    "qs": "^6.9.0",
+    "qs": "^6.9.7",
     "real-isomorphic-fetch": "^3.0.0",
     "typescript": "^3.6.3",
     "wait-promise": "^0.4.1"
